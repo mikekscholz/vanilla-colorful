@@ -1,3 +1,4 @@
+import '@ungap/custom-elements';
 import { HexInputBuiltinBase } from './lib/entrypoints/hex-input-builtin.js';
 
 /**
