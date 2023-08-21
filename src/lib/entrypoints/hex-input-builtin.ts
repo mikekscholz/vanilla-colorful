@@ -12,7 +12,7 @@ const $init = Symbol('init');
 const $prefix = Symbol('prefix');
 const $update = Symbol('update');
 
-export interface HexInputBase {
+export interface HexInputBuiltinBase {
   addEventListener<T extends keyof ColorPickerEventMap<string>>(
     type: T,
     listener: ColorPickerEventListener<ColorPickerEventMap<string>[T]>,
