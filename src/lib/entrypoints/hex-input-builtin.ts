@@ -33,7 +33,6 @@ export class HexInputBuiltinBase extends HTMLInputElement {
 
   constructor() {
     super();
-    this.type = "text";
   }
 
   private declare [$color]: string;
@@ -49,7 +48,7 @@ export class HexInputBuiltinBase extends HTMLInputElement {
   }
 
   set color(hex: string) {
-    this[$color] = hex;
+    this[$color] = '#' + escape(hex, this.alpha);
     this[$update](hex);
   }
 
