@@ -65,6 +65,7 @@
     "ACKNOWLEDGMENTS",
     "custom-elements.json",
     "hex-input.js",
+    "hex-input-builtin.js",
     "web-types.json",
     "web-types.lit.json"
   ],
