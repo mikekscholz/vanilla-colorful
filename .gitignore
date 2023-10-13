@@ -1,17 +1,8 @@
 /node_modules/
 /coverage
 /dist
-/lib
 /test/**/*.d.ts
 /test/**/*.d.ts.map
 /test/**/*.js
 /test/**/*.js.map
-/src/lib/styles/*.ts
-hex-input.js
-*-color-picker.js
-*.d.ts
-*.map
-custom-elements.json
-web-types.json
-web-types.lit.json
 .wireit

@@ -1,16 +1,16 @@
 {
-  "name": "vanilla-colorful",
+  "name": "@mikekscholz/vanilla-colorful",
   "version": "0.7.2",
   "description": "A tiny framework agnostic color picker element for modern web apps",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/web-padawan/vanilla-colorful.git"
+    "url": "https://github.com/mikekscholz/vanilla-colorful.git"
   },
   "author": "Serhii Kulykov <iamkulykov@gmail.com>",
   "homepage": "https://web-padawan.github.io/vanilla-colorful/",
   "bugs": {
-    "url": "https://github.com/web-padawan/vanilla-colorful/issues"
+    "url": "https://github.com/mikekscholz/vanilla-colorful/issues"
   },
   "main": "hex-color-picker.js",
   "module": "hex-color-picker.js",
